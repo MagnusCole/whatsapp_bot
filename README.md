@@ -3,7 +3,7 @@
 A modular and scalable messaging bot platform that supports multiple messaging services, with initial support for WhatsApp.
 
 ## Version
-Current Version: 1.0.0
+Current Version: 0.0.1
 - Initial release with WhatsApp integration
 - WebSocket server implementation
 - Basic message routing
@@ -62,21 +62,25 @@ A modular and scalable messaging platform middleware with support for WhatsApp a
 
 - Node.js 16+
 - Python 3.8+
-- PostgreSQL (optional)
+- PostgreSQL
+- Docker and Docker Compose
 
 ### Installation
 
 1. Clone the repository:
+
 ```bash
-git clone https://github.com/yourusername/whatsapp-bot.git
-cd whatsapp-bot
+git clone https://github.com/MagnusCole/whatsapp_bot.git
+cd whatsapp_bot
 ```
-2. Install dependencies for each service
+2. Start with Docker Compose:
+```bash
+docker-compose up --build
+```
 3. Configure environment variables
 4. Start services using Docker Compose
 
 ## Development
-
 Each service can be developed and tested independently:
 
 ### Backend
@@ -93,15 +97,7 @@ npm install
 npm run dev
 ```
 
-### Frontend
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
 ## Contributing
-
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
