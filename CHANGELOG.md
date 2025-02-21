@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1] - 2024-02-21
+### Changed
+- Consolidated database migrations to Alembic
+- Cleaned up redundant documentation
+- Improved .gitignore patterns
+- Removed obsolete configuration files
+
 ## [1.0.0] - 2024-02-20
 ### Added
 - Initial WhatsApp integration using Baileys

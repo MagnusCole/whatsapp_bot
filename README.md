@@ -22,13 +22,8 @@ The project follows a microservices architecture with the following components:
 - Message routing and transformation
 - WebSocket server for real-time communication
 
-### Frontend (React)
-- Admin interface for bot management
-- Real-time message monitoring
-- Configuration and analytics dashboard
-
 ### Database
-- PostgreSQL with Drizzle ORM
+- PostgreSQL with SQLAlchemy
 - Efficient data persistence
 - Scalable schema design
 
@@ -42,9 +37,6 @@ The project follows a microservices architecture with the following components:
 ├── middleware/        # Node.js middleware service
 │   ├── src/
 │   ├── tests/
-│   └── package.json
-├── frontend/         # React admin interface
-│   ├── src/
 │   └── package.json
 ├── docker/           # Docker configuration
 └── docker-compose.yml # Service orchestration

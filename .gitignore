@@ -35,3 +35,10 @@ coverage/
 # Misc
 .DS_Store
 Thumbs.db
+
+# Python package metadata
+*.egg-info/
+*.egg
+
+# Temporary files
+query
