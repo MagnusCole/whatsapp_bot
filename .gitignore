@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build outputs
+dist/
+build/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# WhatsApp session files
+middleware/auth/
+
+# Testing
+coverage/
+.pytest_cache/
+
+# Database
+*.sqlite
+*.sqlite3
+
+# Misc
+.DS_Store
+Thumbs.db
