@@ -2,6 +2,12 @@
 
 A modular and scalable messaging bot platform that supports multiple messaging services, with initial support for WhatsApp.
 
+## Version
+Current Version: 1.0.0
+- Initial release with WhatsApp integration
+- WebSocket server implementation
+- Basic message routing
+
 ## Architecture
 
 The project follows a microservices architecture with the following components:
